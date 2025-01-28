@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "CAEBD383-F33D-4FFF-8BB5-FAC9E83A2E9D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SignInApp.xcodeproj",
+      "identifier" : "3769DBC2287C6879001E4F8D",
+      "name" : "SignInApp"
+    },
+    "uiTestingScreenshotsLifetime" : "keepAlways",
+    "userAttachmentLifetime" : "keepAlways"
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "SignInAppUITests",
+        "SignInAppUITests\/testExample()",
+        "SignInAppUITests\/testLaunchPerformance()",
+        "SignInAppUITestsLaunchTests",
+        "SignInAppUITestsLaunchTests\/testLaunch()",
+        "SignInXCTest"
+      ],
+      "target" : {
+        "containerPath" : "container:SignInApp.xcodeproj",
+        "identifier" : "7A090AE02D42990F00B436CE",
+        "name" : "SignInAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
